@@ -1,0 +1,50 @@
+<script>
+
+  // var form = document.getElementsByTagName("form")[0];
+  // form["button"].onclick = function() {
+  //   var html = "<table><tbody>";
+  //   for (var i = 0; i < form["rows"].value; i++) {
+  //     html += "<tr>";
+  //     for (var j = 0; j < form["columns"].value; j++) {
+  //       html += "<td>&nbsp;</td>"
+  //     }
+  //     html += "</tr>"
+  //   }
+  //   html += "</tbody></table>";
+
+  //   document.getElementById("tableHolder").innerHTML=html;
+  // }
+
+
+  var form = document.getElementsByTagName("form")[0];
+  
+  form["button"].onclick = function(){
+    document.getElementById("canvasHolder").innerHTML = '<canvas id="myChart"></canvas>';
+    let a = [];
+    for (let i = 0; i < form["rows"].value; i++) {
+      a.push(i);
+    }
+    console.log(a);
+  const data = {
+    labels: a,
+    datasets: [{
+      label: 'My First dataset',
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgb(255, 99, 132)',
+      data: [0, 10, 5, 2, 20, 30, 45],
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data,
+    options: {}
+  };
+
+  const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+}
+
+</script>

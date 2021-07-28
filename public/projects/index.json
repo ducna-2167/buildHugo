@@ -1,0 +1,17 @@
+{
+    "projects": [
+      {
+        "url": "http://example.org/projects/awesomeco/",
+        "title": "AwesomeCo"
+      },
+      {
+        "url": "http://example.org/projects/jabberwocky/",
+        "title": "Jabberwocky"
+      },
+      {
+        "url": "http://example.org/projects/linkitivity/",
+        "title": "Linkitivity"
+      }
+    ]
+  }
+  

@@ -1,0 +1,3 @@
+{{ $url := printf "%s/%s/repos" .Site.Params.gh_url .Site.Params.gh_user }}
+
+{{ $repos := getJSON $url }}

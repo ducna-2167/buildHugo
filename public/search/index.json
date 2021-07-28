@@ -1,0 +1,69 @@
+{
+    "results":[
+        {
+            "href": "http://example.org/posts/2021/07/chart-post/",
+            "title": "Chart Post",
+            "body": "This is my first post so it may not be so amazing\n"
+        },
+        {
+            "href": "http://example.org/posts/2021/07/my-vacation/",
+            "title": "My Vacation",
+            "body": "Picture from sample page\n  Mount Rushmore   The Badlands   Bison at Custer National Park \n"
+        },
+        {
+            "href": "http://example.org/posts/2021/07/third-post/",
+            "title": "Third Post",
+            "body": "This is my first post so it may not be so amazing\n"
+        },
+        {
+            "href": "http://example.org/posts/2021/07/second-post/",
+            "title": "Second Post",
+            "body": "This is my first post so it may not be so amazing\n"
+        },
+        {
+            "href": "http://example.org/posts/2021/07/first-post/",
+            "title": "First Post",
+            "body": "This is my first post so it may not be so amazing\nThông qua hợp tác và các cấu trúc xe điện hoàn toàn mới, Mercedes đang có tham vọng sẽ chuyển toàn bộ dòng xe của họ thành xe điện vào năm 2030. Trong chiến lược này, hãng xe sang của Đức sẽ ra mắt ba cấu trúc mới, đầu tư nhiều hơn vào nghiên cứu và phát triển cho xe điện. Về cơ bản thì Mercedes đang có ba phân nhánh là Benz làm xe cá nhân phổ thông, AMG làm xe hiệu năng cao và Maybach là siêu sang.\nĐể sẵn sàng cho cột mốc điện hóa hoàn toàn vào năm 2030, mục tiêu của Mercedes sẽ là có ít nhất một mẫu xe điện trong toàn bộ phân khúc mà họ kinh doanh vào năm 2022. Tới năm 2025, mọi cấu trúc mới sẽ chỉ dành cho xe điện mà thôi, hãng kỳ vọng xe điện sẽ chiếm một nửa doanh số bán xe trên toàn cầu. Cũng phải nói rõ là việc điện hóa toàn bộ xe vào năm 2030 sẽ tùy thuộc vào thị trường, nơi đó phải có hạ tầng đủ tốt cho xe điện hoạt động.\nGần 50 tỉ USD là số tiền mà Mercedes sẽ đầu tư cho xe điện từ 2022 tới 2030, chủ yếu là khâu nghiên cứu và phát triển. Mercedes có kế hoạch tăng trưởng về doanh thu nhờ các dòng xe hiệu năng cao AMG và xa xỉ Maybach. Trong khi Benz vẫn sẽ là đầu tàu về lợi nhuận.\nBa cấu trúc xe mới sẽ là MB.EA cho xe cá nhân cỡ vừa và lớn, AMG.EA cho xe hiệu năng và VAN.EA cho xe thương mại hạng nhẹ. Về pin, Mercedes sẽ hợp tác với các đối tác để xây dựng lên tới 8 nhà máy sản xuất cell pin. Công nghệ trong tương lai sẽ là pin thể rắn hiện vẫn đang trong quá trình phát triển.\n"
+        },
+        {
+            "href": "http://example.org/search/",
+            "title": "Search",
+            "body": ""
+        },
+        {
+            "href": "http://example.org/opensource/",
+            "title": "Open Source Software",
+            "body": "My Open Source Software on Github:\n"
+        },
+        {
+            "href": "http://example.org/resume/",
+            "title": "Résumé",
+            "body": "This is my resume\n"
+        },
+        {
+            "href": "http://example.org/about/",
+            "title": "About",
+            "body": "This is my about page\n"
+        },
+        {
+            "href": "http://example.org/contact/",
+            "title": "Contact",
+            "body": "This is my Contact page\n"
+        },
+        {
+            "href": "http://example.org/projects/awesomeco/",
+            "title": "AwesomeCo",
+            "body": "Description of the AwesomeCo project\u0026hellip;\n"
+        },
+        {
+            "href": "http://example.org/projects/jabberwocky/",
+            "title": "Jabberwocky",
+            "body": "Description of the Jabberwocky project\u0026hellip;\n"
+        },
+        {
+            "href": "http://example.org/projects/linkitivity/",
+            "title": "Linkitivity",
+            "body": "Description of the Linkitivity project\u0026hellip;\n"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Duke's portfolio"
+theme = "basic"
+[params]
+author = "Anh Duc Nguyen"
+description = "Duke's portfolio site"
+
+gh_url= "https://api.github.com/users"
+gh_user= "anhduc1000"
+
+[permalinks]
+posts = "posts/:year/:month/:slug/" 
+year = "posts/:slug"
+month = "posts/:slug"
+
+[taxonomies]
+year = "year"
+month = "month"
+tag = "tags"
+category = "categories"

@@ -1,0 +1,64 @@
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h2>{{ .Title }}</h2>
+        <p>
+            By {{ .Params.Author }}
+        </p>
+        <p>
+            Posted {{ .Date.Format "January 2, 2006" }}
+            <span class="tags">
+                in
+                {{ range .Params.tags }}
+                <a class="tags" href="/tags/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </span>
+        </p>
+        <p>
+            Reading time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.
+        </p>
+        <p>
+            {{ .Content }}
+        </p>
+    </header>
+
+    <section class="body">
+
+    </section>
+
+    <form>
+        <label>Test field: <input type="text" name="rows"></label>
+        <br><br>
+        <input type="button" name="button" value="submit form" />
+    </form>
+
+    <!-- <form>
+        <input type="number" min="1" max="10" name="rows" required />rows
+        <input type="number" min="1" max="10" name="columns" required />columns
+        <input type="button" name="button" value="create table" />
+    </form>
+
+    <div id="tableHolder"></div> -->
+
+
+
+    <div id="canvasHolder">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    {{- partial "chart.html" . -}}
+
+
+
+
+</article>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+{{ end }}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Duke&#39;s portfolio</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Duke&#39;s portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jul 2021 19:41:23 +0700</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chart Post</title>
+      <link>http://example.org/posts/2021/07/chart-post/</link>
+      <pubDate>Tue, 27 Jul 2021 19:41:23 +0700</pubDate>
+      
+      <guid>http://example.org/posts/2021/07/chart-post/</guid>
+      <description>&lt;p&gt;This is my first post so it may not be so amazing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Vacation</title>
+      <link>http://example.org/posts/2021/07/my-vacation/</link>
+      <pubDate>Mon, 26 Jul 2021 00:17:33 +0700</pubDate>
+      
+      <guid>http://example.org/posts/2021/07/my-vacation/</guid>
+      <description>Picture from sample page
+  Mount Rushmore   The Badlands   Bison at Custer National Park</description>
+    </item>
+    
+    <item>
+      <title>Third Post</title>
+      <link>http://example.org/posts/2021/07/third-post/</link>
+      <pubDate>Sun, 25 Jul 2021 02:11:29 +0700</pubDate>
+      
+      <guid>http://example.org/posts/2021/07/third-post/</guid>
+      <description>&lt;p&gt;This is my first post so it may not be so amazing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://example.org/posts/2021/07/second-post/</link>
+      <pubDate>Sun, 25 Jul 2021 00:35:41 +0700</pubDate>
+      
+      <guid>http://example.org/posts/2021/07/second-post/</guid>
+      <description>&lt;p&gt;This is my first post so it may not be so amazing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/2021/07/first-post/</link>
+      <pubDate>Fri, 23 Jul 2021 16:13:43 +0700</pubDate>
+      
+      <guid>http://example.org/posts/2021/07/first-post/</guid>
+      <description>&lt;p&gt;This is my first post so it may not be so amazing&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
